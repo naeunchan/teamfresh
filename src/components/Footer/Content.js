@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "@emotion/styled";
+import Horizon from "../Horizon";
 
 const ContentContainer = styled.div`
     display: flex;
@@ -24,7 +25,7 @@ const Title = styled.h5`
 
 const Content = ({ children, title, ...props }) => {
     const StyledHr = {
-        width: "80%",
+        width: "85%",
         margin: "0.8rem 0",
         border: "0",
         height: "1px",
@@ -33,9 +34,9 @@ const Content = ({ children, title, ...props }) => {
 
     return (
         <ContentContainer>
-            <hr style={StyledHr} />
+            <Horizon style={StyledHr} />
             <Title>{title}</Title>
-            <hr style={StyledHr} />
+            <Horizon style={StyledHr} />
             {children}
         </ContentContainer>
     );

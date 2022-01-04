@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
 import Content from "./Content";
+import Horizon from "../Horizon";
 
 const FooterContainer = styled.div`
     width: 100%;
@@ -8,7 +9,6 @@ const FooterContainer = styled.div`
     background-color: rgb(49, 53, 62);
     color: rgb(213, 213, 213);
     padding: 1rem 0;
-    position: absolute;
     left: 0;
     bottom: 0;
 `;
@@ -47,6 +47,7 @@ const CopyRightContainer = styled.div`
 
 const Footer = ({ ...props }) => {
     const StyledHr = {
+        width: "auto",
         margin: "1rem 15px",
         border: "0",
         height: "1px",
@@ -97,7 +98,7 @@ const Footer = ({ ...props }) => {
                     </ContentContainer>
                 </Content>
                 <CopyRightContainer>
-                    <hr style={StyledHr} />
+                    <Horizon style={StyledHr} />
                     <h5 style={StyledH5}>
                         <StyledA href="/login/login.do">©</StyledA> TeamFresh All right reserved
                     </h5>

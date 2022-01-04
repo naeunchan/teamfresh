@@ -5,7 +5,6 @@ import styled from "@emotion/styled";
 import styles from "../../styles";
 
 const StyledNav = styled.nav`
-    position: fixed;
     height: 60px;
     width: 100%;
     display: flex;

@@ -146,7 +146,7 @@ const Board = () => {
                     <BodyBox>
                         <BodyWrapper>
                             <Title style={BodyTitle}>Notice</Title>
-                            <StyledA href="../notice/notice/noticeList.do">
+                            <StyledA href="/notice/notice/noticeList.do">
                                 <StyledImg src={add} alt="더보기" title="더보기" />
                             </StyledA>
                         </BodyWrapper>
@@ -159,7 +159,7 @@ const Board = () => {
                     <BodyBox>
                         <BodyWrapper>
                             <Title style={BodyTitle}>TimF News</Title>
-                            <StyledA href="../pressrelease/pressReleaseList.do">
+                            <StyledA href="/pressrelease/pressReleaseList.do">
                                 <StyledImg src={add} alt="더보기" title="더보기" />
                             </StyledA>
                         </BodyWrapper>

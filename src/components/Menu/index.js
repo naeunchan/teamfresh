@@ -70,6 +70,7 @@ const StyledLi = styled.li`
 `;
 
 const StyledA = styled.a`
+    cursor: pointer;
     display: block;
     color: ${({ isItem }) => (isItem ? "black" : "rgba(0, 0, 0, 0.5)")};
     padding: ${({ isItem }) => (isItem ? "12px 16px" : "0.5rem 1rem")};
@@ -143,7 +144,7 @@ const Menu = ({ ...props }) => {
             <StyledMenu className={toggle ? "show" : null} isToggled={toggle}>
                 <StyledUl>
                     <StyledLi onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1}>
-                        <StyledA href="/">
+                        <StyledA>
                             <StyledSpan>회사소개</StyledSpan>
                         </StyledA>
                         {hover1 && (
@@ -164,7 +165,7 @@ const Menu = ({ ...props }) => {
                         )}
                     </StyledLi>
                     <StyledLi onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2}>
-                        <StyledA href="/">
+                        <StyledA>
                             <StyledSpan>사업소개</StyledSpan>
                         </StyledA>
                         {hover2 && (
@@ -185,7 +186,7 @@ const Menu = ({ ...props }) => {
                         )}
                     </StyledLi>
                     <StyledLi onMouseEnter={handleMouseEnter3} onMouseLeave={handleMouseLeave3}>
-                        <StyledA href="/">
+                        <StyledA>
                             <StyledSpan>공지사항</StyledSpan>
                         </StyledA>
                         {hover3 && (

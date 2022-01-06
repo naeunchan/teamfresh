@@ -24,7 +24,7 @@ const Wrapper = styled.div`
 
 const Section = styled.div`
     display: flex;
-    padding: 0 1rem;
+    padding: 1rem;
     flex-direction: column;
     flex: 1;
     max-width: 100%;
@@ -159,7 +159,7 @@ const Board = () => {
                     <BodyBox>
                         <BodyWrapper>
                             <Title style={BodyTitle}>TimF News</Title>
-                            <StyledA href="https://www.teamfresh.co.kr/pressrelease/pressReleaseList.do">
+                            <StyledA href="/pressrelease/pressReleaseList.do">
                                 <StyledImg src={add} alt="더보기" title="더보기" />
                             </StyledA>
                         </BodyWrapper>

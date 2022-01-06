@@ -5,6 +5,7 @@ const JumbotronContainer = styled.div`
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
+    margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

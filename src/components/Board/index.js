@@ -77,35 +77,35 @@ const DummyPost = [
         title: "[공고] 신주발행 공고(제3자 배정방식)",
         date: "2021-09-15",
         poster: "admin",
-        link: "https://www.teamfresh.co.kr/notice/notice/noticeDetail.do",
+        link: "../notice/notice/noticeDetail.do",
     },
     {
         postId: "72",
         title: "[공고] 신주발행 공고(제3자 배정방식)",
         date: "2021-09-08",
         poster: "admin",
-        link: "https://www.teamfresh.co.kr/notice/notice/noticeDetail.do",
+        link: "../notice/notice/noticeDetail.do",
     },
     {
         postId: "69",
         title: "[공고] 신주발행 공고(제3자 배정방식)",
         date: "2021-08-31",
         poster: "admin",
-        link: "https://www.teamfresh.co.kr/notice/notice/noticeDetail.do",
+        link: "../notice/notice/noticeDetail.do",
     },
     {
         postId: "67",
         title: "[공고] 신주발행 공고(제3자 배정방식)",
         date: "2021-08-15",
         poster: "admin",
-        link: "https://www.teamfresh.co.kr/notice/notice/noticeDetail.do",
+        link: "../notice/notice/noticeDetail.do",
     },
     {
         postId: "66",
         title: "[공고] 신주발행 공고(제3자 배정방식)",
         date: "2021-08-08",
         poster: "admin",
-        link: "https://www.teamfresh.co.kr/notice/notice/noticeDetail.do",
+        link: "../notice/notice/noticeDetail.do",
     },
 ];
 
@@ -146,7 +146,7 @@ const Board = () => {
                     <BodyBox>
                         <BodyWrapper>
                             <Title style={BodyTitle}>Notice</Title>
-                            <StyledA href="/notice/notice/noticeList.do">
+                            <StyledA href="../notice/notice/noticeList.do">
                                 <StyledImg src={add} alt="더보기" title="더보기" />
                             </StyledA>
                         </BodyWrapper>
@@ -159,7 +159,7 @@ const Board = () => {
                     <BodyBox>
                         <BodyWrapper>
                             <Title style={BodyTitle}>TimF News</Title>
-                            <StyledA href="/pressrelease/pressReleaseList.do">
+                            <StyledA href="../pressrelease/pressReleaseList.do">
                                 <StyledImg src={add} alt="더보기" title="더보기" />
                             </StyledA>
                         </BodyWrapper>

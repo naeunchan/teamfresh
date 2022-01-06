@@ -83,16 +83,16 @@ const Footer = ({ ...props }) => {
                 </Content>
                 <Content title="Others">
                     <ContentContainer>
-                        <StyledA href="/notice/employment/employmentList.do">
+                        <StyledA href="../notice/employment/employmentList.do">
                             <StyledP>인재채용</StyledP>
                         </StyledA>
-                        <StyledA href="/notice/serviceinfo/serviceInfo.do">
+                        <StyledA href="../notice/serviceinfo/serviceInfo.do">
                             <StyledP>서비스 소개</StyledP>
                         </StyledA>
-                        <StyledA href="/main/userpolicy/userPolicy.do">
+                        <StyledA href="../main/userpolicy/userPolicy.do">
                             <StyledP>개인정보 처리방침</StyledP>
                         </StyledA>
-                        <StyledA href="/main/locationBasedService/locationBasedService.do">
+                        <StyledA href="../main/locationBasedService/locationBasedService.do">
                             <StyledP>위치기반 서비스 이용약관</StyledP>
                         </StyledA>
                     </ContentContainer>
@@ -100,7 +100,7 @@ const Footer = ({ ...props }) => {
                 <CopyRightContainer>
                     <Horizon style={StyledHr} />
                     <h5 style={StyledH5}>
-                        <StyledA href="/login/login.do">©</StyledA> TeamFresh All right reserved
+                        <StyledA href="../login/login.do">©</StyledA> TeamFresh All right reserved
                     </h5>
                 </CopyRightContainer>
             </Wrapper>

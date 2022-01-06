@@ -149,16 +149,16 @@ const Menu = ({ ...props }) => {
                         </StyledA>
                         {hover1 && (
                             <Dropdown>
-                                <StyledA href="/company/timf/timfInfo.do" isItem>
+                                <StyledA href="../company/timf/timfInfo.do" isItem>
                                     회사소개
                                 </StyledA>
-                                <StyledA href="/company/partner/partnerInfo.do" isItem>
+                                <StyledA href="../company/partner/partnerInfo.do" isItem>
                                     협력사 소개
                                 </StyledA>
-                                <StyledA href="/company/customer/customerInfo.do" isItem>
+                                <StyledA href="../company/customer/customerInfo.do" isItem>
                                     고객사 소개
                                 </StyledA>
-                                <StyledA href="/company/map/timfMap.do" isItem>
+                                <StyledA href="../company/map/timfMap.do" isItem>
                                     오시는 길
                                 </StyledA>
                             </Dropdown>
@@ -170,16 +170,16 @@ const Menu = ({ ...props }) => {
                         </StyledA>
                         {hover2 && (
                             <Dropdown>
-                                <StyledA href="/business/ts/TS.do" isItem>
+                                <StyledA href="../business/ts/TS.do" isItem>
                                     새벽배송
                                 </StyledA>
-                                <StyledA href="/business/lf/LF.do" isItem>
+                                <StyledA href="../business/lf/LF.do" isItem>
                                     화물주선
                                 </StyledA>
-                                <StyledA href="/business/fu/FU.do" isItem>
+                                <StyledA href="../business/fu/FU.do" isItem>
                                     풀필먼트
                                 </StyledA>
-                                <StyledA href="/business/gr/GR.do" isItem>
+                                <StyledA href="../business/gr/GR.do" isItem>
                                     그로서리
                                 </StyledA>
                             </Dropdown>
@@ -191,20 +191,20 @@ const Menu = ({ ...props }) => {
                         </StyledA>
                         {hover3 && (
                             <Dropdown>
-                                <StyledA href="/notice/notice/noticeList.do" isItem>
+                                <StyledA href="../notice/notice/noticeList.do" isItem>
                                     공지사항
                                 </StyledA>
-                                <StyledA href="/notice/employment/employmentList.do" isItem>
+                                <StyledA href="../notice/employment/employmentList.do" isItem>
                                     인재채용
                                 </StyledA>
-                                <StyledA href="/notice/serviceinfo/serviceInfo.do" isItem>
+                                <StyledA href="../notice/serviceinfo/serviceInfo.do" isItem>
                                     서비스 소개
                                 </StyledA>
                             </Dropdown>
                         )}
                     </StyledLi>
                     <StyledLi>
-                        <StyledA href="/pressrelease/pressReleaseList.do">
+                        <StyledA href="../pressrelease/pressReleaseList.do">
                             <StyledSpan>보도자료</StyledSpan>
                         </StyledA>
                     </StyledLi>

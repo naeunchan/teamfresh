@@ -4,6 +4,12 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import styled from "@emotion/styled";
+import CompanyPage from "./pages/CompanyPage";
+import BusinessPage from "./pages/BusinessPage";
+import NoticePage from "./pages/NoticePage/";
+import PressreleasePage from "./pages/PressreleasePage";
+import LoginPage from "./pages/Login/";
+import MainPage from "./pages/MainPage/";
 
 const PageContainer = styled.div`
     display: flex;
@@ -23,6 +29,12 @@ function App() {
                 <BrowserRouter>
                     <Routes>
                         <Route path="/" element={<HomePage />} />
+                        <Route path="/company/*" element={<CompanyPage />} />
+                        <Route path="/business/*" element={<BusinessPage />} />
+                        <Route path="/notice/*" element={<NoticePage />} />
+                        <Route path="/pressrelease/*" element={<PressreleasePage />} />
+                        <Route path="/login/*" element={<LoginPage />} />
+                        <Route path="/main/*" element={<MainPage />} />
                     </Routes>
                 </BrowserRouter>
             </Page>

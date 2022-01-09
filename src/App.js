@@ -10,6 +10,7 @@ import NoticePage from "./pages/NoticePage/";
 import PressreleasePage from "./pages/PressreleasePage";
 import LoginPage from "./pages/Login/";
 import MainPage from "./pages/MainPage/";
+import Delivery from "./pages/Delivery";
 
 const PageContainer = styled.div`
     display: flex;
@@ -35,6 +36,7 @@ function App() {
                         <Route path="/pressrelease/*" element={<PressreleasePage />} />
                         <Route path="/login/*" element={<LoginPage />} />
                         <Route path="/main/*" element={<MainPage />} />
+                        <Route path="/delivery/*" element={<Delivery />} />
                     </Routes>
                 </BrowserRouter>
             </Page>

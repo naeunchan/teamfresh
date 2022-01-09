@@ -208,6 +208,11 @@ const Menu = ({ ...props }) => {
                             <StyledSpan>보도자료</StyledSpan>
                         </StyledA>
                     </StyledLi>
+                    <StyledLi>
+                        <StyledA href="/delivery">
+                            <StyledSpan>배송지역검색</StyledSpan>
+                        </StyledA>
+                    </StyledLi>
                 </StyledUl>
             </StyledMenu>
         </>
